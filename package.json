@@ -1,0 +1,12 @@
+{
+  "name": "graphql-library",
+  "private": true,
+  "dependencies": {},
+  "engines": {
+    "yarn": "1.7.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.34.0",
+    "webpack-dev-server": "^3.7.1"
+  }
+}
