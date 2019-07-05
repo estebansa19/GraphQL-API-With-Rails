@@ -3,13 +3,19 @@ module Types
     field :items,
           [Types::ItemType],
           null: false,
-          description: "Returns a list of items in the martian library"
+          description: "Returns a list of items in the library"
 
-    field :uers,
-          [Types::UserType]
+    field :users,
+          [Types::UserType],
+          null: false,
+          description: "Returns a list of items in the library"
 
     def items
       Item.all
+    end
+
+    def users
+      User.all
     end
   end
 end
